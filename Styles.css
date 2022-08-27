@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(95, 4, 4);
+
+}
+
+.logo {
+    width: 200px;
+    margin: 40px
+}
+
+main {
+
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h1,
+p {
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.botao {
+    background-color: rgb(247, 243, 243);
+    padding: 20px;
+    border: none;
+    flex: 2;
+    height: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: end;
+
+}
+
+.caixa {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#lista {
+    list-style: none;
+}
+
+#lista>li {
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: end;
+    font-size: 16px;
+    display: flow-root;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.Excluir {
+    background-color: whitesmoke;
+    width: 16px;
+    height: 20px;
+    line-height: 0;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+#Digite-o-que-procura {
+    background-color: white;
+    border: 3px;
+    padding: 4px;
+    width: 80%;
+    height: 40px;
+    outline: none;
+    font-size: 14px;
+    color: black;
+    border-radius: 4px;
+    margin-top: 30px;
+
+
+}
